@@ -70,10 +70,10 @@
       "commitMessage": "chore(lib): release v${version}"
     },
     "github": {
-      "release": false
+      "release": true
     },
     "npm": {
-      "publish": true,
+      "publish": false,
       "publishPath": "../../dist/ngx-auth-firebaseui"
     },
     "publishConfig": {
